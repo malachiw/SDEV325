@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<!--Feb 17, 2019 -->
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+   <title>Please Login</title>
+   
+	<link href="https://fonts.googleapis.com/css?family=Acme" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="main.css">
+</head>
+
+<body class="center" OnLoad="document.main.username.focus();">
+	<div>
+		<img src="images/layout/loginimage.jpg" alt="Three Palms logo.">
+	</div>
+	<div>	
+		<table class="center-table">
+			<tr>
+				<td colspan="2">	
+					<h2>Sign in to your account to continue</h2> 
+				</td>
+			</tr>
+		<!-- create the main form with an input text box named uid and a password text box named mypassword -->
+			<form name="main" method="post" action="authcheck.php"> 
+			<tr> 
+				<td>Username:</td> 
+				<td><input name="username" type="text" size="50" required></td> 
+			</tr> 
+			<tr>
+				<td>Password:</td>
+				<td><input name="password" type="text" size="50" required></td>
+			</tr>
+			<tr> 
+				<td colspan="2" align="center"><input name="btnsubmit" type="submit" value="Submit"></td> 
+			</tr>
+		</table>
+			</form>
+	</div>
+	
+</body>
+</html> 
+

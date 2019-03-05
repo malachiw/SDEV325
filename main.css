@@ -1,0 +1,21 @@
+* {
+	box-sizing: border-box;
+}
+.center {
+	text-align: center;
+}
+.center-table {
+	margin: auto
+}
+.form {
+	height: 600px;
+	width: 100%;
+}
+body {
+	font-family: 'Acme', sans-serif;
+}
+div {
+	display: inline-block;
+	font-size: normal;	
+}
+
